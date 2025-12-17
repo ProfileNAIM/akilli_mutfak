@@ -47,7 +47,7 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 1.  Repoyu klonlayın:
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/cebimdeki-sef.git](https://github.com/KULLANICI_ADIN/cebimdeki-sef.git)
+    git clone https://github.com/egnake/akilli_mutfak.git
     ```
 2.  Proje dizinine gidin:
     ```bash
