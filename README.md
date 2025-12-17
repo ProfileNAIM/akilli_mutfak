@@ -70,7 +70,7 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 ## 👨‍💻 Geliştirici
 
-**[Senin Adın]** - *Cyber Security Student & Mobile Developer*
+**Ege(Egnake)PARLAK** - *Cyber Security Student & Software Developer*
 
 * GitHub: [@egnake](https://github.com/egnake)
 * LinkedIn: [@egeparlak](https://www.linkedin.com/in/ege-parlak-7b860b332/)
