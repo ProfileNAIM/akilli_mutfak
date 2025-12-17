@@ -73,7 +73,7 @@ Projeyi yerel makinenizde çalıştırmak için:
 **[Senin Adın]** - *Cyber Security Student & Mobile Developer*
 
 * GitHub: [@egnake](https://github.com/egnake)
-* LinkedIn: https://www.linkedin.com/in/ege-parlak-7b860b332/
+* LinkedIn: [@egeparlak](https://www.linkedin.com/in/ege-parlak-7b860b332/)
 
 ---
 *Bu proje, açık kaynak API'lerin mobil uygulamalara entegrasyonunu göstermek amacıyla geliştirilmiştir.*
