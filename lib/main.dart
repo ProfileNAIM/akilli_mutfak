@@ -40,7 +40,7 @@ class AkilliMutfakApp extends StatelessWidget {
   }
 }
 
-// --- ANA EKRAN ---
+// ANA EKRAN
 class AnaEkran extends StatefulWidget {
   const AnaEkran({super.key});
 
@@ -56,7 +56,7 @@ class _AnaEkranState extends State<AnaEkran> {
     const FavorilerSayfasi(),
   ];
 
-  // --- RASTGELE YEMEK MANTIĞI ---
+  //RASTGELE YEMEK MANTIĞI
   void _rastgeleSecimDiyaloguGoster() {
     showDialog(
       context: context,
@@ -178,7 +178,7 @@ class _AnaEkranState extends State<AnaEkran> {
   }
 }
 
-// --- 1. SAYFA: KEŞFET ---
+// SAYFA: KEŞFET
 class KesfetSayfasi extends StatefulWidget {
   const KesfetSayfasi({super.key});
 
@@ -412,7 +412,7 @@ class _KesfetSayfasiState extends State<KesfetSayfasi> {
   }
 }
 
-// --- 2. SAYFA: FAVORİLERİM ---
+// SAYFA: FAVORİLERİM
 class FavorilerSayfasi extends StatefulWidget {
   const FavorilerSayfasi({super.key});
 
@@ -691,7 +691,7 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
     }
   }
 
-  // --- BESİN ANALİZİ (API KEY GÖMÜLÜ) ---
+  //BESİN ANALİZİ
   Future<void> besinDegerleriniAnalizEt() async {
     setState(() {
       besinYukleniyor = true;
@@ -724,7 +724,7 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
     String query = temizlenmisMalzemeler.join(", ");
     
     // SENİN API KEYİN
-    String apiKey = '2SwiCQCefn1fhWZWLZmkaA==v4QkTGgyWKeNVlwd'; 
+    String apiKey = 'buraya kendi api keyinizi yazmalısınız.'; 
 
     var url = Uri.parse('https://api.calorieninjas.com/v1/nutrition?query=$query');
     try {
@@ -745,7 +745,7 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
           toplamKarb += item['carbohydrates_total_g'];
         }
 
-        // PORSİYON BÖLÜCÜ (Tencereyi 3 porsiyona bölüyoruz)
+        // PORSİYON BÖLÜCÜ
         int porsiyon = 3;
 
         setState(() {
@@ -828,7 +828,7 @@ class _DetaySayfasiState extends State<DetaySayfasi> {
                         ),
                         const SizedBox(height: 30),
 
-                        // --- BESİN ANALİZ KISMI ---
+                        //BESİN ANALİZ KISMI
                         besinDegerleri == null
                         ? InkWell(
                             onTap: besinYukleniyor ? null : besinDegerleriniAnalizEt,
